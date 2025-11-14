@@ -1,5 +1,8 @@
+import { fetchCryptos } from "../api/coinGecko";
 export const Home = () => {
-  return (
-    <div>Home Page</div>
-  )
+ const fetchCryptoData = async () => {
+    const data = await fetchCryptos();
+    console.log(data);
+ }
+ return <div>This is the home page</div>
 }
