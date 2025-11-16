@@ -29,7 +29,15 @@ export const Home = () => {
 
          <div className="controls">
             <div className="filter-group">
-               
+               <label>Sort by:</label>
+               <select>
+            <option value="market_cap_rank">Rank</option>
+            <option value="name">Name</option>
+            <option value="price">Price (Low to High)</option>
+            <option value="price_desc">Price (High to Low)</option>
+            <option value="change">24h Change</option>
+            <option value="market_cap">Market Cap</option>
+               </select>
             </div>
             <div className="view-toggle">
                <button className={viewMode === "grid" ? "active" : ""} 
