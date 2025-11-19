@@ -1,16 +1,47 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Crypto Price App 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Crypto Price Tracker is a fast, responsive, and user-friendly web application built with React and Vite, leveraging the CoinGecko API to deliver real-time cryptocurrency market data. Designed with performance and simplicity in mind, this app allows users to explore live prices, market trends, and detailed stats for thousands of digital assets—all in one place.
 
-## React Compiler
+Powered by Vite’s lightning-fast development server and optimized build pipeline, the app ensures a smooth experience on both desktop and mobile devices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Real-Time Price Data
+Fetch live prices, 24h price changes, market cap, and trading volume for 10,000+ cryptocurrencies via the CoinGecko API.
+
+Top Cryptocurrencies Dashboard
+View the top 100+ coins by market capitalization with essential metrics and interactive cards.
+
+Search & Filter Functionality
+Quickly find any cryptocurrency by name or symbol using an intuitive search bar.
+
+Responsive & Mobile-First Design
+Built with modern CSS (or your choice of styling: Tailwind, styled-components, etc.), the app works seamlessly across all screen sizes.
+
+Performance Optimized with Vite
+Ultra-fast hot module replacement (HMR) during development and minimal bundle size in production.
+
+Clean UI with Loading States & Error Handling
+Graceful handling of API loading, errors, and empty states for a polished user experience.
+Optional Enhancements (if implemented)
+Dark/Light mode toggle
+
+Favorite/watchlist functionality
+Historical price charts (using CoinGecko’s chart endpoints)
+Price change percentage indicators with color-coded trends (green/red)
+
+## Live Link
+
+https://crypto-pricing-app-using-react.vercel.app/
+## Demo
+
+Demo Link : https://verification-of-farming.vercel.app/
+
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
