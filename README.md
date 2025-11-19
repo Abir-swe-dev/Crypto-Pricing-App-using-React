@@ -37,6 +37,7 @@ Price change percentage indicators with color-coded trends (green/red)
 
 https://crypto-pricing-app-using-react.vercel.app/
 
+![image alt](https://github.com/Abir-swe-dev/Crypto-Pricing-App-using-React/blob/15ffa7d0f8bb4371788764d5bac17cf31ebb8e04/text2.PNG)
 
 
 ## Screenshots
