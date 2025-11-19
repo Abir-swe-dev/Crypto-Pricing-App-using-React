@@ -36,9 +36,7 @@ Price change percentage indicators with color-coded trends (green/red)
 ## Live Link
 
 https://crypto-pricing-app-using-react.vercel.app/
-## Demo
 
-Demo Link : https://verification-of-farming.vercel.app/
 
 
 ## Screenshots
